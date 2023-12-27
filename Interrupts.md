@@ -1,4 +1,5 @@
 1. [LINK 1] https://linux-kernel-labs.github.io/refs/heads/master/lectures/interrupts.html
+2. [LINK 2] https://www.scs.stanford.edu/05au-cs240c/lab/i386/s09_01.htm#:~:text=If%20detected%20during%20the%20instruction,the%20instruction%20to%20be%20restarted.&text=A%20trap%20is%20an%20exception,which%20the%20exception%20was%20detected.
 
 __TRAPS__
 
