@@ -7,7 +7,6 @@ https://www.geeksforgeeks.org/cc-preprocessors/
 4. (## and # operators in c)[https://www.geeksforgeeks.org/stringizing-and-token-pasting-operators-in-c/?ref=lbp]
 5. (Priniting variable name in c)[https://www.geeksforgeeks.org/how-to-print-a-variable-name-in-c/?ref=lbp]
 6. (differnce between const and macro in C)[https://www.geeksforgeeks.org/diffference-define-const-c/?ref=lbp]
-
 7. (variable length argumnt in c)[https://www.geeksforgeeks.org/variable-length-arguments-for-macros/?ref=lbp]
 
 __There are 4 main types of preprocessor directives:__  
