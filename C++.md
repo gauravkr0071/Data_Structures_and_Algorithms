@@ -1,4 +1,12 @@
 
+
+- [inline function in c++](https://www.geeksforgeeks.org/inline-functions-cpp/?ref=lbp)
+- [size of an empty class](https://www.geeksforgeeks.org/why-is-the-size-of-an-empty-class-not-zero-in-c/?ref=ml_lbp)
+- [virtual base class and it use](https://www.geeksforgeeks.org/virtual-base-class-in-c/)
+- [smart pointers in c++](https://www.geeksforgeeks.org/auto_ptr-unique_ptr-shared_ptr-weak_ptr-in-cpp/)
+- [new and delte keyword in c++](https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/)
+- [calloc, malloc, realloc in c]()
+
 ### __Differences between C and C++__
 | C        | C++     |
 |----------|---------|
