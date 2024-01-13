@@ -6,7 +6,60 @@
 - [smart pointers in c++](https://www.geeksforgeeks.org/auto_ptr-unique_ptr-shared_ptr-weak_ptr-in-cpp/)
 - [new and delte keyword in c++](https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/)
 - [calloc, malloc, realloc in c]()
+- [lambda expresssion in c++] (https://www.programiz.com/cpp-programming/lambda-expression)
 
+ ## __understanding it and some ways how to use lambda function__
+
+ ```cpp
+#include <iostream>
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   // cout<<"Hello World";
+    
+    vector<int> x{1,2,3,4,5,6,7,8,9,10};
+   
+   auto l = [&x](int a, int b, int &yy) {
+        for(auto &i : x)
+        {i=a+b+yy;yy=77777  ;cout<<i<<endl;}
+    };
+    int c=88;
+    l(6,8,c);
+    cout<<"hello";
+    cout<<c;
+  for(auto &i : x)
+        {  cout<<i<<endl;
+        }
+    
+    return 0;
+}
+output::
+102
+77791
+77791
+77791
+77791
+77791
+77791
+77791
+77791
+77791
+hello77777102
+77791
+77791
+77791
+77791
+77791
+77791
+77791
+77791
+77791
+
+```
+EXAXMPLE 2
 ### __Differences between C and C++__
 | C        | C++     |
 |----------|---------|
