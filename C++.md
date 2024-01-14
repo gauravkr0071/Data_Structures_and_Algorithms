@@ -7,6 +7,7 @@
 - [new and delte keyword in c++](https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/)
 - [calloc, malloc, realloc in c]()
 - [lambda expresssion in c++] (https://www.programiz.com/cpp-programming/lambda-expression)
+- [Generic labda in c++ 14](https://www.geeksforgeeks.org/generalized-lambda-expressions-c14/)
 
  ## __understanding it and some ways how to use lambda function__
 
