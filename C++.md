@@ -1,5 +1,5 @@
 
-
+- [constexpr in c++](https://www.geeksforgeeks.org/understanding-constexper-specifier-in-cpp/)
 - [inline function in c++](https://www.geeksforgeeks.org/inline-functions-cpp/?ref=lbp)
 - [size of an empty class](https://www.geeksforgeeks.org/why-is-the-size-of-an-empty-class-not-zero-in-c/?ref=ml_lbp)
 - [virtual base class and it use](https://www.geeksforgeeks.org/virtual-base-class-in-c/)
@@ -7,7 +7,7 @@
 - [new and delte keyword in c++](https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/)
 - [calloc, malloc, realloc in c]()
 - [lambda expresssion in c++] (https://www.programiz.com/cpp-programming/lambda-expression)
-- [Generic labda in c++ 14](https://www.geeksforgeeks.org/generalized-lambda-expressions-c14/)
+- [Generic lambda in c++ 14](https://www.geeksforgeeks.org/generalized-lambda-expressions-c14/)
 
  ## __understanding it and some ways how to use lambda function__
 
