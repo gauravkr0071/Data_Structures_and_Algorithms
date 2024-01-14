@@ -1,4 +1,5 @@
-
+- [static_cast , dynamic_cast, reinterpret_cast, const cast](https://stackoverflow.com/questions/332030/when-should-static-cast-dynamic-cast-const-cast-and-reinterpret-cast-be-used)
+- [static_cast in c++](https://www.geeksforgeeks.org/static_cast-in-cpp/)
 - [constexpr in c++](https://www.geeksforgeeks.org/understanding-constexper-specifier-in-cpp/)
 - [inline function in c++](https://www.geeksforgeeks.org/inline-functions-cpp/?ref=lbp)
 - [size of an empty class](https://www.geeksforgeeks.org/why-is-the-size-of-an-empty-class-not-zero-in-c/?ref=ml_lbp)
