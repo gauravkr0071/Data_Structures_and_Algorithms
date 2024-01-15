@@ -9,6 +9,40 @@
 - [calloc, malloc, realloc in c]()
 - [lambda expresssion in c++] (https://www.programiz.com/cpp-programming/lambda-expression)
 - [Generic lambda in c++ 14](https://www.geeksforgeeks.org/generalized-lambda-expressions-c14/)
+- [passing function as a pramter in c++ 3 ways](https://www.geeksforgeeks.org/passing-a-function-as-a-parameter-in-cpp/)
+- [template in c++](https://www.geeksforgeeks.org/generics-in-c/?ref=lbp)
+
+  ## __example passing function as a parameter__
+  ```cpp
+#include <iostream>
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+// Function template with a template parameter
+template <typename T>
+void myFunction(T arg) {
+    std::cout << "Value: " << arg << std::endl;
+}
+
+// Function taking a function template as a parameter
+template <typename FunctionType, typename ArgType>
+void wrapperFunction(FunctionType func, ArgType arg) {
+    std::cout << "Calling wrapper function..." << std::endl;
+    func(arg);
+}
+
+int main() {
+    // Calling wrapper function with the function template
+    wrapperFunction(myFunction<int>, 42);
+    wrapperFunction(myFunction<double>, 3.14);
+
+    return 0;
+}
+
+    
+  ```
 
  ## __understanding it and some ways how to use lambda function__
 
