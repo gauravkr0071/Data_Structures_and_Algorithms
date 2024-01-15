@@ -13,7 +13,7 @@
 - [template in c++](https://www.geeksforgeeks.org/generics-in-c/?ref=lbp)
 
   ## __example passing function as a parameter__
-  ```cpp
+```cpp
 #include <iostream>
 
 #include <iostream>
