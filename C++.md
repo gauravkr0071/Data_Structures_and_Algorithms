@@ -11,6 +11,31 @@
 - [Generic lambda in c++ 14](https://www.geeksforgeeks.org/generalized-lambda-expressions-c14/)
 - [passing function as a pramter in c++ 3 ways](https://www.geeksforgeeks.org/passing-a-function-as-a-parameter-in-cpp/)
 - [template in c++](https://www.geeksforgeeks.org/generics-in-c/?ref=lbp)
+- [multithreading_playlist](https://www.youtube.com/playlist?list=PLk6CEY9XxSIAeK-EAh3hB4fgNvYkYmghp)
+### __muktithreading exampkle__
+```cpp
+#include <iostream>
+#include <vector>
+//#include <chrono>
+#include <thread>
+using namespace std;
+
+void cal(int x)
+{ this_thread::sleep_for(chrono::seconds(2));
+    cout<<x<<endl;
+    
+}
+
+int main()
+{ 
+  thread t1(cal,5);
+  thread t2(cal,6);
+  
+  t1.join();t2.join();
+return 0;
+}
+
+```
 
   ## __example passing function as a parameter__
 ```cpp
