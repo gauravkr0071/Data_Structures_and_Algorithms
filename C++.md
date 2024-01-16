@@ -1,3 +1,4 @@
+- [refernce varible in c++ IMP](https://www.geeksforgeeks.org/references-in-cpp/)
 - [static_cast , dynamic_cast, reinterpret_cast, const cast](https://stackoverflow.com/questions/332030/when-should-static-cast-dynamic-cast-const-cast-and-reinterpret-cast-be-used)
 - [static_cast in c++](https://www.geeksforgeeks.org/static_cast-in-cpp/)
 - [constexpr in c++](https://www.geeksforgeeks.org/understanding-constexper-specifier-in-cpp/)
@@ -12,6 +13,9 @@
 - [passing function as a pramter in c++ 3 ways](https://www.geeksforgeeks.org/passing-a-function-as-a-parameter-in-cpp/)
 - [template in c++](https://www.geeksforgeeks.org/generics-in-c/?ref=lbp)
 - [multithreading_playlist](https://www.youtube.com/playlist?list=PLk6CEY9XxSIAeK-EAh3hB4fgNvYkYmghp)
+- [what are the components of STL in c++](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)
+- [ddeep copy and shallow copy exmples in video explaination](https://www.youtube.com/watch?v=nCAVr_T4DbM&list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF&index=55)
+- [deafult assignmnet oprtaor in c++ PRETTY ADVANCED](https://www.geeksforgeeks.org/default-assignment-operator-and-references-in-cpp/)
 ### __muktithreading exampkle__
 ```cpp
 #include <iostream>
