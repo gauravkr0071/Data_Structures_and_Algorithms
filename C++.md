@@ -103,6 +103,9 @@ hashtag#EmbeddedSystems has
 - [ddeep copy and shallow copy exmples in video explaination](https://www.youtube.com/watch?v=nCAVr_T4DbM&list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF&index=55)
 - [deafult assignmnet oprtaor in c++ PRETTY ADVANCED](https://www.geeksforgeeks.org/default-assignment-operator-and-references-in-cpp/)
 - [Virtual destructor in C++](https://www.youtube.com/watch?v=JXHJZJXKP64)
+- [ipc using shared memory easy exmaple](https://dextutor.com/program-for-ipc-using-shared-memory/)
+- [ipc using shared memory hard exmaple](https://biendltb.github.io/tech/inter-process-communication-ipc-in-cpp/)
+- 
 ### __muktithreading exampkle__
 ```cpp
 #include <iostream>
