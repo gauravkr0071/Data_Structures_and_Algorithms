@@ -102,6 +102,7 @@ hashtag#EmbeddedSystems has
 - [what are the components of STL in c++](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)
 - [ddeep copy and shallow copy exmples in video explaination](https://www.youtube.com/watch?v=nCAVr_T4DbM&list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF&index=55)
 - [deafult assignmnet oprtaor in c++ PRETTY ADVANCED](https://www.geeksforgeeks.org/default-assignment-operator-and-references-in-cpp/)
+- [Virtual destructor in C++](https://www.youtube.com/watch?v=JXHJZJXKP64)
 ### __muktithreading exampkle__
 ```cpp
 #include <iostream>
