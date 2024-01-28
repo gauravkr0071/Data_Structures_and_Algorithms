@@ -1,5 +1,13 @@
 [link](https://www.freecodecamp.org/news/what-is-endianness-big-endian-vs-little-endian/)
-
+- [how to avioid padding structure](https://www.geeksforgeeks.org/how-to-avoid-structure-padding-in-c/)
+- [bit field in c ](https://www.geeksforgeeks.org/bit-fields-c/?ref=lbp)
+- [offset macro](https://www.tutorialspoint.com/c_standard_library/c_macro_offsetof.htm#:~:text=The%20following%20example%20shows%20the%20usage%20of%20offsetof()%20Macro.&text=name%20offset%20%3D%200%20byte%20in,100%20byte%20in%20address%20structure.)
+- [fprintf](https://stackoverflow.com/questions/16430108/what-does-it-mean-to-write-to-stdout-in-c)
+- [varidaic function in c](https://www.geeksforgeeks.org/variadic-functions-in-c/)
+- [variable length RAguments in c](https://www.geeksforgeeks.org/variable-length-arguments-for-macros/?ref=lbp)
+- [How to Count Variable Numbers of Arguments in C?](https://www.geeksforgeeks.org/how-to-count-variable-numbers-of-arguments-in-c)
+- [why do we need c unions](https://stackoverflow.com/questions/252552/why-do-we-need-c-unions)
+  
 ### __write a program to know the endianness of a machine__
 
 Little and Big Endian Mystery
