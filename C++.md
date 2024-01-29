@@ -150,8 +150,65 @@ hashtag#EmbeddedSystems has
 - [Virtual destructor in C++](https://www.youtube.com/watch?v=JXHJZJXKP64)
 - [ipc using shared memory easy exmaple](https://dextutor.com/program-for-ipc-using-shared-memory/)
 - [ipc using shared memory hard exmaple](https://biendltb.github.io/tech/inter-process-communication-ipc-in-cpp/)
-- 
+- [MUlti threading in c++ VIDEO using signal mechanism(cond varible)] (https://www.youtube.com/watch?v=eh_9zUNmTig&list=PLk6CEY9XxSIAeK-EAh3hB4fgNvYkYmghp&index=13)
+  
 ### __muktithreading exampkle__
+
+```cpp
+This C++ code demonstrates a simple multithreading example using std::thread, std::mutex, and std::condition_variable to print odd and even numbers alternatively in two different threads. The program uses a shared variable (count) to keep track of the next number to be printed.
+
+mu: A mutex used for protecting shared resources (in this case, the variable count).
+cond: A condition variable used for synchronization and signaling between threads.
+count: A shared variable representing the next number to be printed.
+
+
+include <iostream>
+#include <thread>
+#include <mutex>
+#include <condition_variable>
+
+std::mutex mu;
+std::condition_variable cond;
+int count = 1;
+
+
+void PrintOdd()
+{
+    for(; count < 100;)
+    {
+        std::unique_lock<std::mutex> locker(mu);
+        cond.wait(locker,[](){ return (count%2 == 1); });
+        std::cout << "From Odd:    " << count << std::endl;
+        count++;
+        //locker.unlock();
+        cond.notify_all();
+    }
+
+}
+
+void PrintEven()
+{
+    for(; count < 100;)
+    {
+        std::unique_lock<std::mutex> locker(mu);
+        cond.wait(locker,[](){ return (count%2 == 0); });
+        std::cout << "From Even: " << count << std::endl;
+        count++;
+      //  locker.unlock();
+        cond.notify_all();
+    }
+}
+
+int main()
+{
+    std::thread t1(PrintOdd);
+    std::thread t2(PrintEven);
+    t1.join();
+    t2.join();
+    return 0;
+}
+```
+
 ```cpp
 #include <iostream>
 #include <vector>
