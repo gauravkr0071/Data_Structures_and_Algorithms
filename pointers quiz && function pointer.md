@@ -2,6 +2,48 @@
 -- [quiz on pointers and imp concepts ]https://www.geeksforgeeks.org/c-language-2-gq/pointers-gq/
 ### __Function pointer in C++__
 
+```cpp
+#include <iostream>
+
+using namespace std;
+
+                                                  //imp to pass argument as seprate otherwise error
+void use( void (* temp) (int a, int b, int* c), int a, int b, int* c)
+{
+    temp(a,b,c);
+    
+    
+}
+
+
+void multiply ( int a, int b, int *result ) 
+{
+   
+*result= a *b;
+}    
+
+
+
+int main()
+{
+    cout<<"Hello World";
+    int z=0;
+    void (*g)(int , int, int*)=&multiply;
+    use(g,2,4 ,&z );
+   // multiply(2,4, &z);
+    cout<<z;
+    
+    
+
+    return 0;
+}
+
+
+
+
+```
+
+
 - __Example 1__
 ```cpp
 
