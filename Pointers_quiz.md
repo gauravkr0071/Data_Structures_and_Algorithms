@@ -9,4 +9,6 @@
 - https://www.geeksforgeeks.org/c-pointers-question-13/
 - __THIS POINTER__ https://www.geeksforgeeks.org/this-pointer-in-c/
 - [__DANGLING ,WILD, VOID pointer__] (https://www.geeksforgeeks.org/dangling-void-null-wild-pointers/)
+- [pre and post increment operatot and concept](https://www.geeksforgeeks.org/c-advanced-pointer-question-9-2/?ref=ml_lbp)
+- [concept for this](https://www.geeksforgeeks.org/cpp-increment-and-decrement-operators/) 
 
