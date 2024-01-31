@@ -129,6 +129,7 @@ mplemented with the State pattern.
 
 hashtag#EmbeddedSystems has
 ```
+- [linking global varible with same name ](https://www.geeksforgeeks.org/how-linkers-resolve-multiply-defined-global-symbols/?ref=ml_lbp)
 - [refernce varible in c++ IMP](https://www.geeksforgeeks.org/references-in-cpp/)
 - [static_cast , dynamic_cast, reinterpret_cast, const cast](https://stackoverflow.com/questions/332030/when-should-static-cast-dynamic-cast-const-cast-and-reinterpret-cast-be-used)
 - [static_cast in c++](https://www.geeksforgeeks.org/static_cast-in-cpp/)
