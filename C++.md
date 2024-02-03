@@ -655,3 +655,130 @@ Output:
 
 300
 ```
+```cpp
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <iostream>
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int size=3;
+int present=0;
+
+struct node
+{
+    node* next;
+    node* prev;
+    int val;
+    
+    node(int x)
+    {   prev=NULL;
+        next=NULL;
+        val=x;
+    }
+};
+
+bool search (node* head, int num, node** address)
+{
+    if(present==0)
+    return false;
+    
+    node* temp=head->next;
+    while(head)
+    {   if(head->val==num)
+    {     *address=head;
+           return true;}
+        temp=temp->next;
+    }
+    
+    return false;
+    
+}
+
+// if present then update the std::list<T> ;
+//  if not presnt then  check the < size then update
+//   if not presnt but list is full then remove the least used from last
+
+
+head->next=p;
+head-Prev=NULL;
+
+
+void update(node* head, int num , bool x, node* address)
+{
+    if(x && !address)
+    {
+        node* before= address->prev;
+        node* after= address->next;
+        before->next=after;
+        after->prev=before;
+        
+       
+        delete address;
+
+    }
+    
+    
+    node* temp1= head->next;
+    node* temp2=new node(num);
+    temp2->prev=head;
+    temp2->next=temp1;
+    head->next=temp2;
+    temp1->prev=temp2;
+    
+    
+    
+}
+
+void read(node* head, node* tail, int num)
+{
+    node* address= NULL;
+    
+    if(search(head, num, &address))
+       update(head, num, TRUE, address)
+        //update at front update(head, num)
+        
+    else{    
+    if(present<size){
+        update(head, num, FALSE, NULL);
+        //update at front
+   
+    present++;
+    
+    }
+    else{
+      node* temp1= tail->prev;
+      node* temp2 = temp1->prev
+      temp2->next= tail;
+      tail->prev=temp2;
+      delete temp1
+      
+        update(head, num, FALSE, NULL);
+    }
+    
+    }
+       
+}
+
+
+int main()
+{
+    node* head= new node(INT_MAX);
+    node* tail= new node(INT_MAX);
+    head->next=tail;
+    tail->prev=head;
+
+    
+
+ 
+    return 0;
+}
+
+```
