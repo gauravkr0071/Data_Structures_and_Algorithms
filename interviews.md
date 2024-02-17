@@ -45,5 +45,44 @@ int main() {
     return 0;
 }
 
+__Broadcom Interview __
+- print int x= 12345, in 12345 order means 1 then 2 then 3 then 4 then 5, but in one pass only , ans: recursive
+- find the nth node from last, in one pass , ans: recursion
+- print the node in reverse order, ans recursion
+- swap the alternate bits of a number
+```cpp
+// 1001 1110 0001 1010
+//  9    e    1  a
+// 0110 1101 0010 0101
+//   6 d 2 5
+int swap(int x)
+{
+    int a= x & 0xAAAA;
+        a=a>>1;
+    int b= x & 0x5555    ;
+        b=b<<1;
+    
+    //printf("%d",a|b);
+    
+    return a|b;
+    
+}    
+```
+
+- 2 identical eggs , and a biludilng of 100 floor, find the max floor fromm whcih it willl not break, make a algo
+  you can break the eggs only one time and reach the answer 
+- find the count set bits in a number in a constant time (i ahve solved in O(number of set bits))
+- find the sub array which have sum zero and return ots starting and end index
+- what is volatile and register keyword ?
+- can we do something like const volatile ? what is that ?
+- a array of size 100 contains num 0 to 99 , one is missing , in random order , and one is repateted two times, find the missing number
+- how device tree works
+- what is platform driver
+- how a kernel knows what is connected and which device is there 
+- what is interconnect
+- can you extract bits from n to m in constant time
+- find the common node in a Y shaped linked list in one pass , ans: recursion
+- suppose i want to pass "hello world " string to a device from kernel , how i can do that,
+- differnce betwwen semaphore and mutex 
 ```
    
